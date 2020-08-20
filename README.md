@@ -1,16 +1,16 @@
 # ecoli_mv
 STEC管理提取小工具
 
-# Author  
+# Author :bowtie:    
 Yanyu Pan
 
-# usage  
+# Quick Start  
 
+```
 usage: ecoli_mv.py [-h] -i xx.csv [--region ] [--Tsamp ] [--Tseq ] [--Osero ]  
                    [--Hsero ] [--mlst ] [--stx ] [--type ]  
 
-该脚本用于根据匹配特征，将相应序列文件复制到新的文件  
-夹(自动在当前文件夹创建，不用你管)，便于后续分析  
+该脚本用于根据匹配特征，将相应序列文件复制到新的文件夹(自动在当前文件夹创建，不用你管)，便于后续分析**  
 
 optional arguments:  
   -h, --help            show this help message and exit  
@@ -26,8 +26,10 @@ optional arguments:
   --mlst                ST型别，如st120,多个请用"，"间隔  
   --stx                 志贺毒素，如stx2k,多个请用"，"间隔  
   --type                测序类型，sketch或complete  
+ ```
  
-Example:  
+# usage  
+
 ```
 #help
 python3 ecoli_mv.py -h
